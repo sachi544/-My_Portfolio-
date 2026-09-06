@@ -28,6 +28,69 @@
   color: $subTitle;
 }
 
+.skills-interactive-panel {
+  border-left: 3px solid $skillsColor;
+  margin: 4px 0 22px;
+  padding: 10px 16px;
+  background: rgba(100, 91, 235, 0.08);
+  border-radius: 0 8px 8px 0;
+}
+
+.skills-interactive-label {
+  color: $skillsColor;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.skills-interactive-panel h2 {
+  color: $titleColor;
+  font-size: 1.2rem;
+  margin: 4px 0;
+}
+
+.skills-interactive-panel p {
+  color: $subTitle;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.resume-action {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-action:hover {
+  transform: translateY(-2px);
+}
+
+.resume-action.primary {
+  background: $buttonColor;
+  color: $lightBackground3;
+}
+
+.resume-action.secondary {
+  border: 1px solid $skillsColor;
+  color: $skillsColor;
+}
+
+.resume-action:focus-visible {
+  box-shadow: 0 0 0 2px $skillsColor;
+  outline: none;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

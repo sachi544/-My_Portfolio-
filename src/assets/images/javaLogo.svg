@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">Java logo</title>
+  <path d="M145 40c35 25 9 39 9 54 0 13 17 19 17 34 0 18-21 31-46 31-31 0-57-13-57-31 0-11 11-19 26-23-7 11-5 20 7 24 17 6 43-1 43-16 0-13-22-19-22-40 0-15 15-22 23-33z" fill="#e76f00"/>
+  <path d="M91 174c22 9 100 10 139-2-9 21-125 32-139 2z" fill="#5382a1"/>
+  <path d="M106 153c-21 7-25 18-4 23 29 7 103 4 128-4 14-5 8-14-7-17 24 1 36 12 19 23-29 19-148 20-148-2 0-10 10-18 12-23z" fill="#5382a1"/>
+  <text x="160" y="126" fill="#fff" font-family="Arial, sans-serif" font-size="31" font-weight="700" text-anchor="middle">JAVA</text>
+</svg>

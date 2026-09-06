@@ -13,6 +13,10 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 6px 4px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .software-skill-inline > i {
@@ -20,6 +24,20 @@
 }
 
 .software-skill-inline > i:hover {
+  color: $skillsColor;
+}
+.software-skill-inline:hover,
+.software-skill-inline:focus-visible,
+.software-skill-inline.active {
+  background-color: rgba(100, 91, 235, 0.14);
+  transform: translateY(-4px);
+  outline: none;
+}
+.software-skill-inline:focus-visible {
+  box-shadow: 0 0 0 2px $skillsColor;
+}
+.software-skill-inline.active > i,
+.software-skill-inline.active > p {
   color: $skillsColor;
 }
 .software-skill-inline > p {

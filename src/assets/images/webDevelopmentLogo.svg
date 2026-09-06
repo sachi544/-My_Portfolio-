@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">Web development logo</title>
+  <rect x="48" y="38" width="224" height="144" rx="12" fill="#0f766e"/>
+  <rect x="48" y="38" width="224" height="32" rx="12" fill="#115e59"/>
+  <circle cx="70" cy="54" r="6" fill="#99f6e4"/>
+  <circle cx="90" cy="54" r="6" fill="#99f6e4"/>
+  <circle cx="110" cy="54" r="6" fill="#99f6e4"/>
+  <path d="m104 113 25 18-25 18M216 113l-25 18 25 18M175 101l-30 60" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+</svg>

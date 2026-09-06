@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">Real-time collaborative system logo</title>
+  <rect x="42" y="38" width="236" height="142" rx="16" fill="#1e293b"/>
+  <rect x="56" y="52" width="208" height="112" rx="8" fill="#e0f2fe"/>
+  <path d="M73 78h96M73 96h143M73 114h112" stroke="#38bdf8" stroke-linecap="round" stroke-width="8"/>
+  <path d="M73 138h67" stroke="#0ea5e9" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="225" cy="135" r="26" fill="#f97316"/>
+  <circle cx="225" cy="127" r="9" fill="#fff"/>
+  <path d="M208 151c4-10 30-10 34 0" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+  <circle cx="184" cy="135" r="20" fill="#14b8a6"/>
+  <circle cx="184" cy="129" r="7" fill="#fff"/>
+  <path d="M171 148c3-8 23-8 26 0" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+  <text x="160" y="204" fill="#0f172a" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">REAL-TIME COLLAB</text>
+</svg>

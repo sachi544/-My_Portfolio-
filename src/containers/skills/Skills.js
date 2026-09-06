@@ -1,14 +1,21 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+import {greeting, illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import resumeFile from "../greeting/resume.pdf";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
+  const [activeSkill, setActiveSkill] = useState(
+    skillsSection.softwareSkills[0].skillName
+  );
+  const selectedSkill = skillsSection.softwareSkills.find(
+    skill => skill.skillName === activeSkill
+  );
   if (!skillsSection.display) {
     return null;
   }
@@ -43,7 +50,17 @@ export default function Skills() {
             >
               {skillsSection.subTitle}
             </p>
-            <SoftwareSkill />
+            <SoftwareSkill
+              activeSkill={activeSkill}
+              onSkillSelect={setActiveSkill}
+            />
+            {selectedSkill && (
+              <div className="skills-interactive-panel" aria-live="polite">
+                <span className="skills-interactive-label">Currently exploring</span>
+                <h2>{selectedSkill.skillName}</h2>
+                <p>{selectedSkill.description}</p>
+              </div>
+            )}
             <div>
               {skillsSection.skills.map((skills, i) => {
                 return (
@@ -59,6 +76,23 @@ export default function Skills() {
                   </p>
                 );
               })}
+            </div>
+            <div className="resume-actions">
+              <a
+                className="resume-action primary"
+                href={resumeFile}
+                download="Sachin-M-Bannur-Resume.pdf"
+              >
+                Download Resume
+              </a>
+              <a
+                className="resume-action secondary"
+                href={greeting.resumeLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Resume
+              </a>
             </div>
           </div>
         </Fade>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">SQL logo</title>
+  <ellipse cx="160" cy="48" rx="92" ry="28" fill="#2563eb"/>
+  <path d="M68 48v78c0 16 41 28 92 28s92-12 92-28V48" fill="#1d4ed8"/>
+  <ellipse cx="160" cy="126" rx="92" ry="28" fill="#1e40af"/>
+  <ellipse cx="160" cy="48" rx="92" ry="28" fill="#3b82f6"/>
+  <text x="160" y="105" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">SQL</text>
+</svg>
